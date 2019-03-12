@@ -1,8 +1,8 @@
 //
 //  GameViewController.swift
-//  OpenFire
+//  Sprite--用户交互
 //
-//  Created by targeter on 2019/3/12.
+//  Created by targeter on 2019/3/1.
 //  Copyright © 2019 targeter. All rights reserved.
 //
 
@@ -16,14 +16,10 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         
         if let view = self.view as! SKView? {
-            // Load the SKScene from 'GameScene.sks'
-            if let scene = SKScene(fileNamed: "GameScene") {
-                // Set the scale mode to scale to fit the window
-                scene.scaleMode = .aspectFill
-                
-                // Present the scene
-                view.presentScene(scene)
-            }
+            
+            let scene = GameScene.init(size: view.bounds.size)
+            scene.scaleMode = .aspectFill
+            view.presentScene(scene)
             
             view.ignoresSiblingOrder = true
             

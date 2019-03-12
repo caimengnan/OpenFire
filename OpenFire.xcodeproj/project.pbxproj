@@ -8,26 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		BB1B290C22378FA500869FC2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B290B22378FA500869FC2 /* AppDelegate.swift */; };
-		BB1B290E22378FA500869FC2 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BB1B290D22378FA500869FC2 /* GameScene.sks */; };
-		BB1B291022378FA500869FC2 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BB1B290F22378FA500869FC2 /* Actions.sks */; };
-		BB1B291222378FA500869FC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B291122378FA500869FC2 /* GameScene.swift */; };
-		BB1B291422378FA500869FC2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B291322378FA500869FC2 /* GameViewController.swift */; };
 		BB1B291722378FA500869FC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1B291522378FA500869FC2 /* Main.storyboard */; };
 		BB1B291922378FA800869FC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1B291822378FA800869FC2 /* Assets.xcassets */; };
 		BB1B291C22378FA800869FC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1B291A22378FA800869FC2 /* LaunchScreen.storyboard */; };
+		BB1B292522378FC800869FC2 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B292322378FC800869FC2 /* GameScene.swift */; };
+		BB1B292622378FC800869FC2 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B292422378FC800869FC2 /* GameViewController.swift */; };
+		BB1B292822378FD300869FC2 /* Spark.sks in Resources */ = {isa = PBXBuildFile; fileRef = BB1B292722378FD300869FC2 /* Spark.sks */; };
+		BB1B29312237946100869FC2 /* exploded.atlas in Resources */ = {isa = PBXBuildFile; fileRef = BB1B292D2237946100869FC2 /* exploded.atlas */; };
+		BB1B29322237946100869FC2 /* bgm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB1B292F2237946100869FC2 /* bgm.mp3 */; };
+		BB1B29332237946100869FC2 /* direction.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB1B29302237946100869FC2 /* direction.mp3 */; };
+		BB1B2935223797A300869FC2 /* bomb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BB1B2934223797A300869FC2 /* bomb.mp3 */; };
+		BB1B2937223797CA00869FC2 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1B2936223797CA00869FC2 /* Music.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB1B290822378FA500869FC2 /* OpenFire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenFire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1B290B22378FA500869FC2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BB1B290D22378FA500869FC2 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		BB1B290F22378FA500869FC2 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		BB1B291122378FA500869FC2 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		BB1B291322378FA500869FC2 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		BB1B291622378FA500869FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BB1B291822378FA800869FC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB1B291B22378FA800869FC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BB1B291D22378FA800869FC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1B292322378FC800869FC2 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BB1B292422378FC800869FC2 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BB1B292722378FD300869FC2 /* Spark.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Spark.sks; sourceTree = "<group>"; };
+		BB1B292D2237946100869FC2 /* exploded.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = exploded.atlas; sourceTree = "<group>"; };
+		BB1B292F2237946100869FC2 /* bgm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bgm.mp3; sourceTree = "<group>"; };
+		BB1B29302237946100869FC2 /* direction.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = direction.mp3; sourceTree = "<group>"; };
+		BB1B2934223797A300869FC2 /* bomb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bomb.mp3; sourceTree = "<group>"; };
+		BB1B2936223797CA00869FC2 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +68,29 @@
 		BB1B290A22378FA500869FC2 /* OpenFire */ = {
 			isa = PBXGroup;
 			children = (
+				BB1B292D2237946100869FC2 /* exploded.atlas */,
+				BB1B292E2237946100869FC2 /* resouces */,
 				BB1B290B22378FA500869FC2 /* AppDelegate.swift */,
-				BB1B290D22378FA500869FC2 /* GameScene.sks */,
-				BB1B290F22378FA500869FC2 /* Actions.sks */,
-				BB1B291122378FA500869FC2 /* GameScene.swift */,
-				BB1B291322378FA500869FC2 /* GameViewController.swift */,
+				BB1B292322378FC800869FC2 /* GameScene.swift */,
+				BB1B2936223797CA00869FC2 /* Music.swift */,
+				BB1B292422378FC800869FC2 /* GameViewController.swift */,
+				BB1B292722378FD300869FC2 /* Spark.sks */,
 				BB1B291522378FA500869FC2 /* Main.storyboard */,
 				BB1B291822378FA800869FC2 /* Assets.xcassets */,
 				BB1B291A22378FA800869FC2 /* LaunchScreen.storyboard */,
 				BB1B291D22378FA800869FC2 /* Info.plist */,
 			);
 			path = OpenFire;
+			sourceTree = "<group>";
+		};
+		BB1B292E2237946100869FC2 /* resouces */ = {
+			isa = PBXGroup;
+			children = (
+				BB1B2934223797A300869FC2 /* bomb.mp3 */,
+				BB1B292F2237946100869FC2 /* bgm.mp3 */,
+				BB1B29302237946100869FC2 /* direction.mp3 */,
+			);
+			path = resouces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +152,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BB1B291722378FA500869FC2 /* Main.storyboard in Resources */,
-				BB1B290E22378FA500869FC2 /* GameScene.sks in Resources */,
+				BB1B292822378FD300869FC2 /* Spark.sks in Resources */,
+				BB1B29312237946100869FC2 /* exploded.atlas in Resources */,
+				BB1B29332237946100869FC2 /* direction.mp3 in Resources */,
+				BB1B29322237946100869FC2 /* bgm.mp3 in Resources */,
 				BB1B291922378FA800869FC2 /* Assets.xcassets in Resources */,
+				BB1B2935223797A300869FC2 /* bomb.mp3 in Resources */,
 				BB1B291C22378FA800869FC2 /* LaunchScreen.storyboard in Resources */,
-				BB1B291022378FA500869FC2 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +169,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BB1B291222378FA500869FC2 /* GameScene.swift in Sources */,
-				BB1B291422378FA500869FC2 /* GameViewController.swift in Sources */,
+				BB1B292522378FC800869FC2 /* GameScene.swift in Sources */,
+				BB1B292622378FC800869FC2 /* GameViewController.swift in Sources */,
 				BB1B290C22378FA500869FC2 /* AppDelegate.swift in Sources */,
+				BB1B2937223797CA00869FC2 /* Music.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,7 +319,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5E8U6K8X2;
 				INFOPLIST_FILE = OpenFire/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +338,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = J5E8U6K8X2;
 				INFOPLIST_FILE = OpenFire/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
