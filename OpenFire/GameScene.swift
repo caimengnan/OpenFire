@@ -16,7 +16,7 @@ let ufoCategory:UInt32 = 0x1<<2
 
 class GameScene: SKScene,SKPhysicsContactDelegate {
     let duration:TimeInterval = 0.5
-    let shipNode: SKSpriteNode = SKSpriteNode(imageNamed: "ship")
+    let shipNode: SKSpriteNode = SKSpriteNode(imageNamed: "sicongwang")
     var bullets: NSMutableArray = NSMutableArray(capacity: 5)
     var bulletSound : NSMutableArray = NSMutableArray(capacity: 5)
     var currentBullet: Int = 0
@@ -111,7 +111,7 @@ class GameScene: SKScene,SKPhysicsContactDelegate {
         let waitAction = SKAction.wait(forDuration: 0.7)
         //创建一个子弹
         let createBulletAction = SKAction.run {
-            let bullet = SKSpriteNode(imageNamed: "bullet")
+            let bullet = SKSpriteNode(imageNamed: "hotdog")
             bullet.position = self.shipNode.position
             bullet.name = "bullet"
             bullet.zPosition = 1.0
