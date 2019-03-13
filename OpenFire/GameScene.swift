@@ -16,12 +16,15 @@ let ufoCategory:UInt32 = 0x1<<2
 
 class GameScene: SKScene,SKPhysicsContactDelegate {
     let duration:TimeInterval = 0.5
-    let shipNode: SKSpriteNode = SKSpriteNode(imageNamed: "sicongwang")
+    
     var bullets: NSMutableArray = NSMutableArray(capacity: 5)
     var bulletSound : NSMutableArray = NSMutableArray(capacity: 5)
     var currentBullet: Int = 0
     //加载sks粒子配置文件
     var emitter:SKEmitterNode! = nil
+    
+    //发射器
+    let shipNode: SKSpriteNode = SKSpriteNode(imageNamed: "sicongwang")
     //添加三个地面变量
     var floor1 = SKSpriteNode(imageNamed: "universal_01")
     var floor2 = SKSpriteNode(imageNamed: "universal_02")
@@ -256,8 +259,6 @@ extension GameScene {
         if (bodyA.categoryBitMask == 2 && bodyB.categoryBitMask == 1) {
             //在飞碟的位置爆炸
             explode(point: (bodyB.node?.position)!)
-//            let bomb = Music()
-//            bomb.bomb()
             bodyB.node?.removeFromParent()
             bodyA.node?.removeFromParent()
             
